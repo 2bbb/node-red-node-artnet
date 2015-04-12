@@ -22,7 +22,7 @@ module.exports = function(RED) {
         	var payload = msg.payload;
         	if(Array.isArray(payload.data)) {
 	        	payload.offset = payload.offset || 0;
-        		for(var i = payload.offset; i < payload.offset + data.length; i++) {
+        		for(var i = payload.offset; i < payload.offset + payload.data.length; i++) {
         			node.data[i] = payload.data[i];
         		}
         	} else if(payload.address) {
