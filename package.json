@@ -1,14 +1,24 @@
 {
-  "name": "nodered_study",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "artnet-node": "^0.1.0"
-  }
+    "name"          : "node-red-node-artnet",
+    "version"       : "0.0.1",
+    "description"   : "Node-RED nodes that control lights via Artnet",
+    "dependencies"  : {
+        "artnet-node": "^0.1.0"
+    },
+    "repository" : {
+        "type":"git",
+        "url":"https://github.com/2bbb/node-red-node-artnet"
+    },
+    "license": "MIT",
+    "keywords": [ "node-red", "artnet", "dmx", "light" ],
+    "node-red"      : {
+        "nodes"     : {
+            "artnet": "node-red-node-artnet.js"
+        }
+    },
+    "author": {
+        "name": "ISHII 2bit",
+        "email": "ishii@buffer-renaiss.com",
+        "url": "http://buffer-renaiss.com/"
+    }
 }
