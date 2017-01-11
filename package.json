@@ -3,7 +3,7 @@
     "version"       : "0.0.1",
     "description"   : "Node-RED nodes that control lights via Artnet",
     "dependencies"  : {
-        "artnet-node": "^0.1.0"
+        "artnet-node": "2bbb/artnet-node"
     },
     "repository" : {
         "type":"git",
